@@ -13,16 +13,19 @@ body {
     width: 100vw;
     height: 100vh;
     display: flex;
-    align-items: center;
-    justify-content: center;
+    flex-direction: column;
+}
+
+header {
+    text-align: center;
+    padding: 20px 0;
 }
 
 .container {
     width: 90%;
-    height: 90%;
+    margin: auto;
     display: flex;
     flex-wrap: wrap;
-    align-items: center;
     justify-content: center;
 }
 
